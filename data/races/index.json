@@ -1,0 +1,1842 @@
+[
+ {
+  "cell": "delayed_200_20",
+  "seed": 1011,
+  "scenario": "delayed_recall",
+  "file": "races/delayed_200_20__s1011.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": "R"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "delayed_200_20",
+  "seed": 1012,
+  "scenario": "delayed_recall",
+  "file": "races/delayed_200_20__s1012.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "delayed_200_20",
+  "seed": 1013,
+  "scenario": "delayed_recall",
+  "file": "races/delayed_200_20__s1013.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "delayed_200_20",
+  "seed": 1014,
+  "scenario": "delayed_recall",
+  "file": "races/delayed_200_20__s1014.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "delayed_200_20",
+  "seed": 1015,
+  "scenario": "delayed_recall",
+  "file": "races/delayed_200_20__s1015.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "delayed_200_20",
+  "seed": 1016,
+  "scenario": "delayed_recall",
+  "file": "races/delayed_200_20__s1016.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": "R"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "delayed_200_20",
+  "seed": 1017,
+  "scenario": "delayed_recall",
+  "file": "races/delayed_200_20__s1017.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "delayed_200_20",
+  "seed": 1018,
+  "scenario": "delayed_recall",
+  "file": "races/delayed_200_20__s1018.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": "R"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "delayed_200_20",
+  "seed": 1019,
+  "scenario": "delayed_recall",
+  "file": "races/delayed_200_20__s1019.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "delayed_200_20",
+  "seed": 1020,
+  "scenario": "delayed_recall",
+  "file": "races/delayed_200_20__s1020.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "lifetime_l1",
+  "seed": 1011,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l1__s1011.json",
+  "beats": 10,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 2
+  }
+ },
+ {
+  "cell": "lifetime_l1",
+  "seed": 1012,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l1__s1012.json",
+  "beats": 10,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 2
+  }
+ },
+ {
+  "cell": "lifetime_l1",
+  "seed": 1013,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l1__s1013.json",
+  "beats": 10,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 2
+  }
+ },
+ {
+  "cell": "lifetime_l1",
+  "seed": 1014,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l1__s1014.json",
+  "beats": 10,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 2
+  }
+ },
+ {
+  "cell": "lifetime_l1",
+  "seed": 1015,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l1__s1015.json",
+  "beats": 10,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 2
+  }
+ },
+ {
+  "cell": "lifetime_l1",
+  "seed": 1016,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l1__s1016.json",
+  "beats": 10,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 2
+  }
+ },
+ {
+  "cell": "lifetime_l1",
+  "seed": 1017,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l1__s1017.json",
+  "beats": 10,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 1
+  }
+ },
+ {
+  "cell": "lifetime_l1",
+  "seed": 1018,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l1__s1018.json",
+  "beats": 10,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 2
+  }
+ },
+ {
+  "cell": "lifetime_l1",
+  "seed": 1019,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l1__s1019.json",
+  "beats": 10,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 2
+  }
+ },
+ {
+  "cell": "lifetime_l1",
+  "seed": 1020,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l1__s1020.json",
+  "beats": 10,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 2
+  }
+ },
+ {
+  "cell": "lifetime_l2",
+  "seed": 1011,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l2__s1011.json",
+  "beats": 12,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 4
+  }
+ },
+ {
+  "cell": "lifetime_l2",
+  "seed": 1012,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l2__s1012.json",
+  "beats": 12,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 4
+  }
+ },
+ {
+  "cell": "lifetime_l2",
+  "seed": 1013,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l2__s1013.json",
+  "beats": 12,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 4
+  }
+ },
+ {
+  "cell": "lifetime_l2",
+  "seed": 1014,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l2__s1014.json",
+  "beats": 12,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 4
+  }
+ },
+ {
+  "cell": "lifetime_l2",
+  "seed": 1015,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l2__s1015.json",
+  "beats": 12,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 3
+  }
+ },
+ {
+  "cell": "lifetime_l2",
+  "seed": 1016,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l2__s1016.json",
+  "beats": 12,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 4
+  }
+ },
+ {
+  "cell": "lifetime_l2",
+  "seed": 1017,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l2__s1017.json",
+  "beats": 12,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 1
+  }
+ },
+ {
+  "cell": "lifetime_l2",
+  "seed": 1018,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l2__s1018.json",
+  "beats": 12,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 4
+  }
+ },
+ {
+  "cell": "lifetime_l2",
+  "seed": 1019,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l2__s1019.json",
+  "beats": 12,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 4
+  }
+ },
+ {
+  "cell": "lifetime_l2",
+  "seed": 1020,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l2__s1020.json",
+  "beats": 12,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 4
+  }
+ },
+ {
+  "cell": "lifetime_l3",
+  "seed": 1011,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l3__s1011.json",
+  "beats": 16,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 8
+  }
+ },
+ {
+  "cell": "lifetime_l3",
+  "seed": 1012,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l3__s1012.json",
+  "beats": 16,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 8
+  }
+ },
+ {
+  "cell": "lifetime_l3",
+  "seed": 1013,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l3__s1013.json",
+  "beats": 16,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 8
+  }
+ },
+ {
+  "cell": "lifetime_l3",
+  "seed": 1014,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l3__s1014.json",
+  "beats": 16,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 4
+  }
+ },
+ {
+  "cell": "lifetime_l3",
+  "seed": 1015,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l3__s1015.json",
+  "beats": 16,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 3
+  }
+ },
+ {
+  "cell": "lifetime_l3",
+  "seed": 1016,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l3__s1016.json",
+  "beats": 16,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 8
+  }
+ },
+ {
+  "cell": "lifetime_l3",
+  "seed": 1017,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l3__s1017.json",
+  "beats": 16,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 1
+  }
+ },
+ {
+  "cell": "lifetime_l3",
+  "seed": 1018,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l3__s1018.json",
+  "beats": 16,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 8
+  }
+ },
+ {
+  "cell": "lifetime_l3",
+  "seed": 1019,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l3__s1019.json",
+  "beats": 16,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 8
+  }
+ },
+ {
+  "cell": "lifetime_l3",
+  "seed": 1020,
+  "scenario": "long_lived_memory",
+  "file": "races/lifetime_l3__s1020.json",
+  "beats": 16,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 8
+  }
+ },
+ {
+  "cell": "noise_10",
+  "seed": 1011,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_10__s1011.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_10",
+  "seed": 1012,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_10__s1012.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_10",
+  "seed": 1013,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_10__s1013.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_10",
+  "seed": 1014,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_10__s1014.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_10",
+  "seed": 1015,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_10__s1015.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_10",
+  "seed": 1016,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_10__s1016.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_10",
+  "seed": 1017,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_10__s1017.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_10",
+  "seed": 1018,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_10__s1018.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_10",
+  "seed": 1019,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_10__s1019.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_10",
+  "seed": 1020,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_10__s1020.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_30",
+  "seed": 1011,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_30__s1011.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_30",
+  "seed": 1012,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_30__s1012.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_30",
+  "seed": 1013,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_30__s1013.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_30",
+  "seed": 1014,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_30__s1014.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_30",
+  "seed": 1015,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_30__s1015.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_30",
+  "seed": 1016,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_30__s1016.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_30",
+  "seed": 1017,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_30__s1017.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_30",
+  "seed": 1018,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_30__s1018.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_30",
+  "seed": 1019,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_30__s1019.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_30",
+  "seed": 1020,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_30__s1020.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_50",
+  "seed": 1011,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_50__s1011.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": "R"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_50",
+  "seed": 1012,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_50__s1012.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_50",
+  "seed": 1013,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_50__s1013.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_50",
+  "seed": 1014,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_50__s1014.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": "R"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_50",
+  "seed": 1015,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_50__s1015.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_50",
+  "seed": 1016,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_50__s1016.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_50",
+  "seed": 1017,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_50__s1017.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_50",
+  "seed": 1018,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_50__s1018.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_50",
+  "seed": 1019,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_50__s1019.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "noise_50",
+  "seed": 1020,
+  "scenario": "memory_noise_stress",
+  "file": "races/noise_50__s1020.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": false,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": "R",
+   "letta": "R"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "world_update_depth3",
+  "seed": 1011,
+  "scenario": "world_update",
+  "file": "races/world_update_depth3__s1011.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": false,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": "P",
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "world_update_depth3",
+  "seed": 1012,
+  "scenario": "world_update",
+  "file": "races/world_update_depth3__s1012.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": false,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": "P",
+   "letta": "P"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "world_update_depth3",
+  "seed": 1013,
+  "scenario": "world_update",
+  "file": "races/world_update_depth3__s1013.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "world_update_depth3",
+  "seed": 1014,
+  "scenario": "world_update",
+  "file": "races/world_update_depth3__s1014.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": "P"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "world_update_depth3",
+  "seed": 1015,
+  "scenario": "world_update",
+  "file": "races/world_update_depth3__s1015.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "world_update_depth3",
+  "seed": 1016,
+  "scenario": "world_update",
+  "file": "races/world_update_depth3__s1016.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": false,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": "P",
+   "letta": "P"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "world_update_depth3",
+  "seed": 1017,
+  "scenario": "world_update",
+  "file": "races/world_update_depth3__s1017.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": true,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": null,
+   "letta": "P"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "world_update_depth3",
+  "seed": 1018,
+  "scenario": "world_update",
+  "file": "races/world_update_depth3__s1018.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": "P"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "world_update_depth3",
+  "seed": 1019,
+  "scenario": "world_update",
+  "file": "races/world_update_depth3__s1019.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": true,
+   "mem0": true,
+   "letta": true
+  },
+  "attributions": {
+   "none": "R",
+   "vector": null,
+   "mem0": null,
+   "letta": null
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ },
+ {
+  "cell": "world_update_depth3",
+  "seed": 1020,
+  "scenario": "world_update",
+  "file": "races/world_update_depth3__s1020.json",
+  "beats": 3,
+  "outcomes": {
+   "none": false,
+   "vector": false,
+   "mem0": false,
+   "letta": false
+  },
+  "attributions": {
+   "none": "R",
+   "vector": "P",
+   "mem0": "P",
+   "letta": "P"
+  },
+  "divergence": {
+   "retrieval": 0,
+   "action": 0
+  }
+ }
+]

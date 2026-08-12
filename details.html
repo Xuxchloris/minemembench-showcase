@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MineMemBench — Full evidence archive</title>
+    <meta name="description" content="A reproducible benchmark measuring how long-term memory frameworks change an embodied LLM agent's actual behavior. 320 controlled runs, 4 memory systems, 8 frozen challenges.">
+    <link rel="stylesheet" href="assets/showcase.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <a class="brand" href="#top">MineMemBench <span class="brand-tag" data-i18n="d.nav.brand">Formal V1 · Controlled</span></a>
+      <div class="nav-links">
+        <a href="index.html" data-i18n="d.nav.back">← Simple page</a>
+        <a href="#question" data-i18n="d.nav.question">Question</a>
+        <a href="#findings" data-i18n="d.nav.findings">Findings</a>
+        <a href="#race" data-i18n="d.nav.race">The Race</a>
+        <a href="#explore" data-i18n="d.nav.explore">Explore</a>
+        <a class="gh-link" href="https://github.com/Xuxchloris/MineMemBench" target="_blank" rel="noopener"><svg class="gh-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg><span data-i18n="nav.github">GitHub source</span></a>
+      </div>
+      <span class="nav-right">
+        <span class="nav-badge" id="nav-integrity" data-i18n="d.nav.badge">320 / 320 runs · checks pass</span>
+        <span id="lang-mount"></span>
+      </span>
+    </nav>
+
+    <!-- ============================ 01 · QUESTION ============================ -->
+    <header class="hero" id="question">
+      <span class="section-num" data-i18n="d.hero.num">01 — THE QUESTION</span>
+      <h1 data-i18n-html="d.hero.title">Do different agent memory systems actually change what an agent <em class="q-mark">does</em>?</h1>
+      <p class="lede" data-i18n-html="d.hero.lede1"></p>
+      <p class="lede" data-i18n-html="d.hero.lede2"></p>
+      <div class="pipeline-line" aria-label="Benchmark pipeline">
+        <span class="pl-step" data-i18n="d.pipe.1">world events</span><span class="pl-arrow">→</span>
+        <span class="pl-step pl-var" data-i18n="d.pipe.2">memory system</span><span class="pl-arrow">→</span>
+        <span class="pl-step" data-i18n="d.pipe.3">what memory surfaces</span><span class="pl-arrow">→</span>
+        <span class="pl-step" data-i18n="d.pipe.4">LLM planner</span><span class="pl-arrow">→</span>
+        <span class="pl-step" data-i18n="d.pipe.5">action</span><span class="pl-arrow">→</span>
+        <span class="pl-step" data-i18n="d.pipe.6">did the right thing?</span>
+      </div>
+      <div class="hero-frozen" id="hero-frozen"></div>
+    </header>
+
+    <!-- ============================ 02 · FINDINGS ============================ -->
+    <section class="section" id="findings">
+      <span class="section-num" data-i18n="d.findings.num">02 — THE FINDINGS</span>
+      <p class="eyebrow" data-i18n="d.findings.eyebrow">EIGHT CHALLENGES × FOUR MEMORY SYSTEMS × TEN IDENTICAL RUNS EACH</p>
+
+      <div class="finding">
+        <div class="finding-num">1</div>
+        <div>
+          <h3 data-i18n="d.f1.title">The long-memory cliff</h3>
+          <div class="big-stat">
+            <span class="stat-a">0 / 10</span>
+            <span class="vs" data-i18n="d.f1.vs.a">VECTOR · 4 &amp; 8 SESSIONS</span>
+            <span class="stat-b">10 / 10</span>
+            <span class="vs">MEM0 &amp; LETTA</span>
+          </div>
+          <p id="finding-lifetime"></p>
+          <a class="watch" href="#race" id="watch-lifetime" data-i18n="d.f1.watch">Watch this race ↓</a>
+        </div>
+      </div>
+
+      <div class="finding">
+        <div class="finding-num">2</div>
+        <div>
+          <h3 data-i18n="d.f2.title">Having the fact ≠ using it</h3>
+          <p class="rb-line" id="rb-line"></p>
+          <p id="finding-worldupdate"></p>
+          <div class="rb-table" id="rb-table"></div>
+          <a class="watch" href="#race" id="watch-worldupdate" data-i18n="d.f2.watch">Watch a stale-memory failure ↓</a>
+        </div>
+      </div>
+
+      <div class="finding">
+        <div class="finding-num">3</div>
+        <div>
+          <h3 data-i18n="d.f3.title">Different memory systems break at different points</h3>
+          <p id="finding-failurepoints"></p>
+          <div class="fp-strips" id="fp-strips"></div>
+        </div>
+      </div>
+
+      <div class="matrix-wrap">
+        <p class="eyebrow" data-i18n="d.matrix.eyebrow">THE FULL MATRIX · DID THE RIGHT THING, OUT OF 10 IDENTICAL RUNS</p>
+        <table class="matrix-table" id="matrix"></table>
+        <p class="matrix-note" data-i18n="d.matrix.note"></p>
+      </div>
+    </section>
+
+    <!-- ============================= 03 · RACE ============================= -->
+    <section class="section" id="race">
+      <span class="section-num" data-i18n="d.race.num">03 — THE PROOF</span>
+      <p class="eyebrow" data-i18n="d.race.eyebrow">MEMORY RACE · SAME WORLD, SAME SEED, SAME CHALLENGE</p>
+      <h2 style="max-width:760px" data-i18n="d.race.h2">Four memory systems run the identical episode.
+        When does behavior diverge?</h2>
+      <p class="lede" style="font-size:16px" data-i18n="d.race.lede"></p>
+      <div id="race-app"></div>
+    </section>
+
+    <!-- ============================ 04 · EXPLORE ============================ -->
+    <section class="section" id="explore">
+      <span class="section-num" data-i18n="d.explore.num">04 — EXPLORE THE EVIDENCE</span>
+      <p class="eyebrow" data-i18n="d.explore.eyebrow">EVERYTHING BELOW IS THE DEEP ARCHIVE</p>
+      <p class="explore-note" data-i18n="d.explore.note"></p>
+
+      <h3 style="margin-top:54px" data-i18n="d.replay.h3">Replay a single run</h3>
+      <p class="small-print" data-i18n="d.replay.sub"></p>
+      <div id="replay-app"></div>
+
+      <h3 style="margin-top:64px" data-i18n="d.stats.h3">Is the gap real, or just chance?</h3>
+      <p class="small-print" data-i18n="d.stats.plain"></p>
+      <p class="small-print" id="stats-note"></p>
+      <div class="forest" id="forest"></div>
+
+      <h3 style="margin-top:64px" data-i18n="d.ladders.h3">Where does each memory system break?</h3>
+      <div class="ladders" id="ladders"></div>
+
+      <h3 style="margin-top:64px"><span data-i18n="d.cost.h3">What extra latency does memory introduce?</span> <span class="mono" style="font-size:11px;color:var(--ink-faint)" data-i18n="d.cost.tag">DESCRIPTIVE ONLY</span></h3>
+      <p class="small-print" data-i18n="d.cost.note"></p>
+      <div class="cost" id="cost"></div>
+
+      <h3 style="margin-top:64px" data-i18n="d.runs.h3">All 320 formal runs</h3>
+      <div id="runs-table"></div>
+
+      <h3 style="margin-top:64px" data-i18n="d.method.h3">Method, integrity &amp; provenance</h3>
+      <div class="method-grid">
+        <div class="method-block"><h4 data-i18n="d.method.study">Study</h4><div id="method-study"></div></div>
+        <div class="method-block"><h4 data-i18n="d.method.integrity">Integrity audit</h4><div id="method-integrity"></div></div>
+        <div class="method-block"><h4 data-i18n="d.method.stats">Statistics</h4><div id="method-stats"></div></div>
+        <div class="method-block"><h4 data-i18n="d.method.prov">Provenance</h4><div id="method-provenance"></div></div>
+      </div>
+
+      <h3 style="margin-top:64px" data-i18n="d.limits.h3">Limitations — read before citing</h3>
+      <ul class="plain" id="limitations"></ul>
+    </section>
+
+    <footer class="footer">
+      <div data-i18n="d.footer"></div>
+      <div class="footer-meta" id="footer-meta"></div>
+    </footer>
+
+    <script src="assets/i18n.js"></script>
+    <script src="assets/charts.js"></script>
+    <script src="assets/player.js"></script>
+    <script src="assets/showcase.js"></script>
+  </body>
+</html>

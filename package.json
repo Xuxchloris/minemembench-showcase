@@ -1,0 +1,11 @@
+{
+  "name": "minemembench-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public interactive showcase for MineMemBench Formal V1 (static, zero-dependency).",
+  "scripts": {
+    "dev": "node serve.js",
+    "build": "node -e \"console.log('static site: nothing to build — deploy this directory as-is')\"",
+    "export:data": "..\\.venv\\Scripts\\python ..\\scripts\\build_showcase_data.py --results-dir ..\\results\\formal_m15_v1_20260811_attempt2 --out data"
+  }
+}

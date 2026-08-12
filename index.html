@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MineMemBench — Do memory systems change what an agent does?</title>
+    <meta name="description" content="A reproducible benchmark for agent memory. Replay a real frozen experiment and watch four memory systems race the identical episode.">
+    <link rel="stylesheet" href="assets/showcase.css">
+  </head>
+  <body class="landing">
+    <nav class="nav">
+      <a class="brand" href="#top">MineMemBench</a>
+      <div class="nav-links">
+        <a href="details.html" data-i18n="l.nav.details">Full data →</a>
+        <a class="gh-link" href="https://github.com/Xuxchloris/MineMemBench" target="_blank" rel="noopener"><svg class="gh-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg><span data-i18n="nav.github">GitHub source</span></a>
+      </div>
+      <span class="nav-right" id="lang-mount"></span>
+    </nav>
+
+    <header class="hero l-hero" id="top">
+      <span class="section-num" data-i18n="l.hero.kicker">A REPRODUCIBLE MEMORY EXPERIMENT</span>
+      <h1 data-i18n="l.hero.title">Do different memory systems actually change what an agent does?</h1>
+      <p class="lede" data-i18n="l.hero.sub"></p>
+    </header>
+
+    <section class="section l-exp" id="experiment">
+      <p class="control-label" data-i18n="l.exp.pick">Choose a challenge</p>
+      <div class="seg l-scenarios" id="scenario-seg"></div>
+
+      <div class="exp-card">
+        <div class="exp-controls">
+          <button class="exp-play" id="exp-play" type="button" data-i18n="l.exp.play">▶ Replay the experiment</button>
+          <span class="exp-step" id="exp-step"></span>
+        </div>
+
+        <div class="live-lanes" id="live-lanes"></div>
+
+        <div class="live-grid-wrap">
+          <p class="chart-caption" data-i18n="l.grid.title">Who still holds the key fact, step by step</p>
+          <div class="live-grid" id="live-grid"></div>
+          <div class="live-flags" id="live-flags"></div>
+        </div>
+
+        <p class="live-narr" id="live-narr"></p>
+
+        <div class="concl-card" id="concl-card" hidden>
+          <h3 data-i18n="l.concl.title">What this race shows</h3>
+          <p id="concl-body"></p>
+          <div class="concl-actions">
+            <a class="btn-strong" href="details.html" data-i18n="l.btn.details">See the full data &amp; methods →</a>
+          </div>
+        </div>
+
+        <p class="honesty" data-i18n="l.exp.honest">This is a step-by-step replay of frozen evidence from real Formal V1 runs — not a re-run.</p>
+      </div>
+    </section>
+
+    <section class="section l-findings" id="landing-findings">
+      <h2 data-i18n="l.findings.title">What the full study found</h2>
+      <div class="mini-findings">
+        <div class="mini-finding">
+          <div class="mini-stat" data-i18n="l.find1.stat">0/10 vs 10/10</div>
+          <p data-i18n="l.find1.body"></p>
+        </div>
+        <div class="mini-finding">
+          <div class="mini-stat" data-i18n="l.find2.stat">22 runs</div>
+          <p data-i18n="l.find2.body"></p>
+        </div>
+        <div class="mini-finding">
+          <div class="mini-stat" data-i18n="l.find3.stat">30 vs 50 vs never</div>
+          <p data-i18n="l.find3.body"></p>
+        </div>
+      </div>
+      <a class="btn-strong" href="details.html" data-i18n="l.btn.details">See the full data &amp; methods →</a>
+    </section>
+
+    <footer class="footer">
+      <div data-i18n="l.footer"></div>
+    </footer>
+
+    <script src="assets/i18n.js"></script>
+    <script src="assets/charts.js"></script>
+    <script src="assets/player.js"></script>
+    <script src="assets/landing.js"></script>
+  </body>
+</html>
